@@ -1,0 +1,93 @@
+Lab1_Q1:
+    Time and Space complexity
+    Time: O(1) 
+    Space: O(1) 
+
+Lab1_Q2:
+    Time and Space complexity
+    Time: O(n) 
+    Space: O(n) 
+
+    Test 1-
+        input:  
+            ")(", 
+            "((())", 
+            "()", 
+            "(a)((b)((c)(d)))"
+        Results:
+            String: )( -> INVALID
+            String: ((()) -> INVALID
+            String: () -> VALID
+            String: (a)((b)((c)(d))) -> VALID
+    Test 2 -
+        input:
+            "()", 
+            "(())", 
+            "(()())", 
+            "((a+b)*(c-d))", 
+            "()()()()", 
+            "(a(b(c)d)e)", 
+            ")(", 
+            "((())", 
+            "())", 
+            "((a+b)*c", 
+            "((())())("
+        results: 
+            String: () -> VALID
+            String: (()) -> VALID
+            String: (()()) -> VALID
+            String: ((a+b)*(c-d)) -> VALID
+            String: ()()()() -> VALID
+            String: (a(b(c)d)e) -> VALID
+            String: )( -> INVALID
+            String: ((()) -> INVALID
+            String: ()) -> INVALID
+            String: ((a+b)*c -> INVALID
+            String: ((())())( -> INVALID
+        
+
+
+Lab1_Q3:
+    Time and Space complexity
+    Time: O(n) 
+    Space: O(n) 
+
+    Test 1 - 
+        input:
+            13, 19, 12, 11, 15, 19, 23, 12, 13, 22, 18, 19, 14, 17, 23, 21
+        output: 
+            smallest: 11
+
+    Test 2 - 
+        input:
+            42, 7, 89, 56, 23, 95, 11, 68, 34, 77, 2, 61, 50, 14, 83, 29
+        output:
+            smallest: 2
+
+    Test 3 - 
+        input:
+            5, 92, 38, 71, 16, 84, 47, 60, 13, 99, 28, 54, 3, 79, 41, 65
+        output:
+            smallest: 3
+
+
+
+Lab1_Q4:
+    Time and Space complexity - 
+    Time: O(n^2) 
+    Space: O(n)
+
+    Test - 
+        input:
+            tested with 3, 4 and 8 respectivly 
+        output:
+            (base) coltonzachary@Coltons-MacBook-Air-2 Alg_Adv_Data_Lab % make run
+            ./a.out 3
+            1, 2, 1
+            (base) coltonzachary@Coltons-MacBook-Air-2 Alg_Adv_Data_Lab % make run
+            ./a.out 4
+            1, 3, 3, 1
+            (base) coltonzachary@Coltons-MacBook-Air-2 Alg_Adv_Data_Lab % make run
+            ./a.out 8
+            1, 7, 21, 35, 35, 21, 7, 1
+            (base) coltonzachary@Coltons-MacBook-Air-2 Alg_Adv_Data_Lab % 
