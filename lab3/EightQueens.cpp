@@ -74,7 +74,7 @@ void QueenPuzzle::placeQueen(int i) {
 int QueenPuzzle::IsValid(int n) {
 
     //compare the queen n withe privous n-1 queens to test whether the current place is workable
-    
+
     for (int i = 0; i < n; i++) {
         // Check if queens are in the same column
         if (queens[i] == queens[n]) {
